@@ -21,6 +21,7 @@ pretty_urls:
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
+root: './'
 source_dir: source
 public_dir: docs
 tag_dir: tags
@@ -103,3 +104,8 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+  
+menu:
+  Home: /
+  java: /java
+
